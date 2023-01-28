@@ -1,0 +1,7 @@
+.home-container{
+    padding: 1rem;
+    display: flex;
+    max-height: 98vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

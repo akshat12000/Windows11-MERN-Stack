@@ -1,0 +1,78 @@
+.icons-div{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    display: flex;
+    background-color: rgba(238, 238, 238,0.9);
+    padding: 0.5rem 0;
+    justify-content:center;
+}
+
+.icons-div img{
+    width: 1.7%;
+    margin: auto 0.7rem;
+    cursor: pointer;
+    padding: 0.4rem;
+}
+
+.icons-div img:hover{
+    transform: scale(1.1);
+    background: rgba(117, 117, 117, 0.3);
+}
+
+.tooltip{
+    position: absolute;
+    bottom: 4rem;
+    z-index: +1;
+    display: inline-block;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #333;
+    background-color: #333;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.start-menu{
+    position: absolute;
+    left:33rem;
+    width: 40%;
+    bottom: 5rem;
+    border-radius: 5px 5px 0 0;
+}
+.start-menu img{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0;
+}
+.start-menu-footer{
+    background-color: #fff;
+    margin-top: -.5rem;
+    color: #333;
+    width: 31.2rem;
+    padding: 1rem 0.5rem;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.start-menu-footer a{
+    color: #333;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.start-menu-footer a:hover, .start-menu-footer div img:hover{
+    background-color:rgba(117, 117, 117, 0.2);
+}
+
+.logout-div{
+    width: 10%;
+}
+.start-menu-footer div img{
+    opacity: 0.5;
+    width:50%;
+    padding: 0.2rem;
+}

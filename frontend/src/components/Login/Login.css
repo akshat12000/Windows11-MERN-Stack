@@ -1,0 +1,66 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding-bottom: 0.5rem;
+}
+
+.login-header{
+    position: relative;
+    padding: 5px;
+    top: -2rem;
+    width: 124%;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(253, 250, 250);
+}
+
+.login-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+    margin-bottom: 0.5rem;
+}
+
+.login-btn-grp{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.login-btn-grp button{
+    width: 100%;
+    outline: 0;
+    border-radius: 5px;
+    border:0.1px solid black;
+    background-color:rgb(253, 250, 250);
+    padding: 0.3rem 0;
+    margin-bottom: 0.5rem;
+    /* box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2); */
+}
+
+.login-btn-grp button a{
+    text-decoration: none;
+    color: #333;
+}
+
+.login-btn-grp button:hover{
+    border: 1px solid rgb(30, 132, 235);
+}

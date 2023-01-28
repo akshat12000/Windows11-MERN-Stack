@@ -1,0 +1,25 @@
+.panel-container{
+    background-color: transparent;
+    position: absolute;
+    bottom: 4rem;
+    right: 1rem;
+}
+
+.panel-container button{
+    margin: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    padding:0.4rem 0.7rem;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.panel-container button:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+.panel-container a{
+    text-decoration: none;
+    color: #fff;
+}

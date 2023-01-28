@@ -1,0 +1,22 @@
+.file-edit-form{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+}
+
+.file-edit-div-header{
+    position: relative;
+    padding: 5px;
+    top: -2rem;
+    left: -1rem;
+    width: 110.5%;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(253, 250, 250);
+}
+
+.file-edit-form input{
+    width:65%;
+}
+select{
+    width: 100%;
+}
